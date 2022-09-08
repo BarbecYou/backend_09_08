@@ -1,2 +1,6 @@
 
-setInterval(function() {document.getElementById("bekezdes").innerHTML = "Hurrá"}, 2000);
+setInterval(i => {
+    while(true){
+        document.getElementById("bekezdes").innerHTML = `${i++}`
+
+    }}, 2000);
