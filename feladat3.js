@@ -1,6 +1,6 @@
-
-setInterval(i => {
-    while(true){
-        document.getElementById("bekezdes").innerHTML = `${i++}`
-
-    }}, 2000);
+const p = document.getElementById("bekezdes");
+let i = 0;
+setInterval(function() {
+    p.innerHTML = i;
+    i++;
+    }, 2000);
